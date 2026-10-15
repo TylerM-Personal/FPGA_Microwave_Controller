@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">FPGA Microwave Controller Project Overview</title>
+  <desc id="desc">Quartus project files, schematic blocks, VHDL control modules, and the MAX 10 target board.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101b32"/><stop offset="1" stop-color="#182b4d"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#47d7c2"/><stop offset="1" stop-color="#65a8ff"/></linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#050b16" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1200" height="650" rx="32" fill="url(#bg)"/>
+  <text x="64" y="78" fill="#8de8da" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3">HARDWARE DESIGN PORTFOLIO</text>
+  <text x="64" y="132" fill="#f4f7ff" font-family="Segoe UI,Arial,sans-serif" font-size="38" font-weight="700">FPGA Microwave Controller</text>
+  <text x="64" y="168" fill="#b7c7e3" font-family="Segoe UI,Arial,sans-serif" font-size="19">Quartus schematics and VHDL modules for MAX 10</text>
+  <g filter="url(#shadow)">
+    <rect x="64" y="230" width="300" height="325" rx="22" fill="#f5f8ff"/>
+    <rect x="450" y="230" width="300" height="325" rx="22" fill="#f5f8ff"/>
+    <rect x="836" y="230" width="300" height="325" rx="22" fill="#f5f8ff"/>
+  </g>
+  <rect x="64" y="230" width="300" height="9" rx="5" fill="url(#accent)"/>
+  <rect x="450" y="230" width="300" height="9" rx="5" fill="url(#accent)"/>
+  <rect x="836" y="230" width="300" height="9" rx="5" fill="url(#accent)"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="94" y="282" fill="#0e1b31" font-size="22" font-weight="700">Quartus Project</text>
+    <text x="94" y="322" fill="#52637d" font-size="17">QPF Project</text>
+    <text x="94" y="352" fill="#52637d" font-size="17">QSF Device Assignments</text>
+    <text x="94" y="382" fill="#52637d" font-size="17">MAX 10 Target</text>
+    <rect x="94" y="422" width="240" height="1" fill="#dce4f1"/>
+    <text x="94" y="460" fill="#0e1b31" font-size="17" font-weight="700">Device</text>
+    <text x="94" y="490" fill="#52637d" font-size="16">10M50DAF484C7G</text>
+    <text x="94" y="520" fill="#52637d" font-size="16">DE10-Lite Board</text>
+
+    <text x="480" y="282" fill="#0e1b31" font-size="22" font-weight="700">Schematics</text>
+    <text x="480" y="322" fill="#52637d" font-size="17">Microwave Test Block</text>
+    <text x="480" y="352" fill="#52637d" font-size="17">Timer Block</text>
+    <text x="480" y="382" fill="#52637d" font-size="17">Time Check Block</text>
+    <rect x="480" y="422" width="240" height="1" fill="#dce4f1"/>
+    <text x="480" y="460" fill="#0e1b31" font-size="17" font-weight="700">Block Diagram Files</text>
+    <text x="480" y="490" fill="#52637d" font-size="15">.bdf design sources</text>
+    <text x="480" y="520" fill="#52637d" font-size="15">Recovered From QAR Archive</text>
+
+    <text x="866" y="282" fill="#0e1b31" font-size="22" font-weight="700">VHDL Modules</text>
+    <text x="866" y="322" fill="#52637d" font-size="17">State And Timer Logic</text>
+    <text x="866" y="352" fill="#52637d" font-size="17">Clock Dividers</text>
+    <text x="866" y="382" fill="#52637d" font-size="17">Servo And PWM Control</text>
+    <rect x="866" y="422" width="240" height="1" fill="#dce4f1"/>
+    <text x="866" y="460" fill="#0e1b31" font-size="17" font-weight="700">Output Logic</text>
+    <text x="866" y="490" fill="#52637d" font-size="16">Buzzer Timing</text>
+    <text x="866" y="520" fill="#52637d" font-size="16">Status Outputs</text>
+  </g>
+  <path d="M379 393h45" stroke="#69d8c6" stroke-width="4" stroke-linecap="round"/><path d="m414 384 12 9-12 9" fill="none" stroke="#69d8c6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M765 393h45" stroke="#69d8c6" stroke-width="4" stroke-linecap="round"/><path d="m800 384 12 9-12 9" fill="none" stroke="#69d8c6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="64" y="610" fill="#91a6c7" font-family="Segoe UI,Arial,sans-serif" font-size="15">Source archive recovered from MCC Outlook. Quartus references two files not present in the attachment.</text>
+</svg>
